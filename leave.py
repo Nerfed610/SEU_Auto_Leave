@@ -286,7 +286,7 @@ class Leave(object):
             post_info['XXDZ'] = "去无线谷科研"
         post_info['SQBH'] = ''
         now_time = datetime.datetime.now()
-        post_info["QJKSRQ"] = (now_time + datetime.timedelta(days=+1)).strftime("%Y-%m-%d 06:00")
+        post_info["QJKSRQ"] = (now_time + datetime.timedelta(days=+1)).strftime("%Y-%m-%d 01:00")
         post_info["QJJSRQ"] = (now_time + datetime.timedelta(days=+1)).strftime("%Y-%m-%d 23:59")
 
         save_url = self.urlBegin + 'modules/leaveApply/addLeaveApply.do'
