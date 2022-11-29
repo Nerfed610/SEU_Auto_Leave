@@ -28,5 +28,6 @@ jobs:
         sudo apt-get install python3-setuptools -y
         git clone https://github.com/quzard/SEU_Auto_Leave.git
         cp -r SEU_Auto_Leave/* .
+        pip install wheel
         pip3 install -r requirements.txt
         python3 main.py
